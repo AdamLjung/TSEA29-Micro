@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Interface</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="client.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="map">
+            <canvas id = "canvas" width="1000" height="400">
+            </canvas>
+        </div>
+
+        <div id="data-window">
+            <div id="data-content"></div>
+        </div>
+        
+        <div id="logo">
+            <div id="logo-content"></div>
+            <img src="logo.png" alt="Image not found">                  
+
+        </div>
+
+        <div id="terminal">
+            <h2>Terminal</h2>
+            <div id="resetMessage"> Reset</div>
+            <div id="autoOnOffMessage"> Auto drive</div>
+            <div id="upMessage"> Moving up</div>
+            <div id="downMessage"> Moving down</div>
+            <div id="leftMessage"> Moving left</div>
+            <div id="rightMessage"> Moving right</div>
+        </div>
+
+        <button id="resetButton" class="reset" onclick="resetFunction()"> 
+            Reset 
+        </button>
+        
+        <div class="slider-container">            
+            <label class="slider-label" for="autoOnOffButton">Auto drive</label>
+            <input type="checkbox" id="autoOnOffButton" class="slider-checkbox" onclick="autoOnOffFunction()">
+        </div>
+        
+        <button id="upButton" class="up" onclick="upFunction()"> 
+            <img src="arrow.png" alt="Image not found" >
+        </button>
+        
+        <button id="downButton" class="down" onclick="downFunction()"> 
+            <img src="arrow.png" alt="Image not found">
+        </button>
+
+        <button id="leftButton" class="left" onclick="leftFunction()"> 
+            <img src="arrow.png" alt="Image not found">
+        </button>
+
+        <button id="rightButton" class="right" onclick="rightFunction()"> 
+            <img src="arrow.png" alt="Image not found">
+        </button>
+
+    </div>
+</body>
+</html>

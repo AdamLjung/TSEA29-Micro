@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Styrmodul", "Styrmodul\Styrmodul.cproj", "{DF3598B4-0A39-40F0-AD75-2B9611579F85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF3598B4-0A39-40F0-AD75-2B9611579F85}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DF3598B4-0A39-40F0-AD75-2B9611579F85}.Debug|AVR.Build.0 = Debug|AVR
+		{DF3598B4-0A39-40F0-AD75-2B9611579F85}.Release|AVR.ActiveCfg = Release|AVR
+		{DF3598B4-0A39-40F0-AD75-2B9611579F85}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

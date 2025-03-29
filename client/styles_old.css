@@ -1,0 +1,157 @@
+/* styles.css */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+  }
+  
+  .container {
+      background-color: rgb(0, 0, 0);
+      justify-content: space-between;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      color: white;
+  }
+  
+  #map {
+      position: absolute;
+      top: 5vh;
+      left: 5vh;
+      height: 65vh;
+      width: 120vh;
+      border: 10px solid #ff0000;
+      background-color: black;
+  }
+  
+  #data-window {
+      position: absolute;
+      top: 5vh;
+      left: 130vh;
+      height: 60vh;
+      width: 75vh;
+      border: 10px solid #fff200;
+      background-color: black;
+  }
+  
+  #terminal {
+      position: absolute;
+      top: 75vh;
+      left: 5vh;
+      height: 20vh;
+      width: 120vh;
+      border: 10px solid #001eff;
+      background-color: black;
+  }
+  
+  .reset {
+      position: absolute;
+      top: 70vh;
+      left: 135vh;
+      height: 10vh;
+      width: 15vh;
+      border: 3px solid #ccc;
+      font-size: x-large;
+  }
+  
+  .autoOnOff {
+      position: absolute;
+      top: 70vh;
+      left: 185vh;
+      height: 10vh;
+      width: 15vh;
+      border: 3px solid #ccc;
+      font-size: x-large;
+  
+  }
+  
+  .up {
+      position: absolute;
+      top: 70vh;
+      left: 160vh;
+      height: 10vh;
+      width: 15vh;
+      border: 3px solid #ccc;
+  }
+  
+  .up img {
+      max-height: 100%;
+      max-width: 100%;
+      transform: rotate(270deg);
+  }
+  
+  .down {
+      position: absolute;
+      top: 85vh;
+      left: 160vh;
+      height: 10vh;
+      width: 15vh;
+      border: 3px solid #ccc;
+  }
+  
+  .down img {
+      max-height: 100%;
+      max-width: 100%;
+      transform: rotate(90deg);
+  }
+  
+  .left {
+      position: absolute;
+      top: 85vh;
+      left: 135vh;
+      height: 10vh;
+      width: 15vh;
+      border: 3px solid #ccc;
+  }
+  
+  .left img {
+      max-height: 100%;
+      max-width: 100%;
+      transform: rotate(180deg);
+  }
+  
+  .right {
+      position: absolute;
+      top: 85vh;
+      left: 185vh;
+      height: 10vh;
+      width: 15vh;
+      border: 3px solid #ccc;
+  }
+  
+  .right img {
+      max-height: 100%;
+      max-width: 100%;
+  }
+  
+  #resetMessage {
+      color: #ccc;
+      display: none;
+  }
+  
+  #autoOnOffMessage {
+      color: #ccc;
+      display: none;
+  }
+  
+  #upMessage {
+      color: #ccc;
+      display: none;
+  }
+  
+  #downMessage {
+      color: #ccc;
+      display: none;
+  }
+  
+  #leftMessage {
+      color: #ccc;
+      display: none;
+  }
+  
+  #rightMessage {
+      color: #ccc;
+      display: none;
+  }  
